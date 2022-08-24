@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "watch": {
+        "test": "{src,test}/*.js"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "test": "{src,test}/*.js",
+        "watch": "mix watch",
+        "hot": "mix hot",
+        "development": "mix"
+    },
+    "devDependencies": {
+        "axios": "^0.27",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^0.5.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "tailwindcss": "^3.1.8",
+        "vite": "^3.0.0"
+    },
+    "dependencies": {
+        "alpinejs": "^3.10.3",
+        "npm-watch": "^0.11.0",
+        "tailgrids": "^1.1.7"
+    }
+}
