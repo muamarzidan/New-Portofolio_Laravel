@@ -22,6 +22,7 @@
     },
     "dependencies": {
         "alpinejs": "^3.10.3",
+        "aos": "^3.0.0-beta.6",
         "npm-watch": "^0.11.0",
         "tailgrids": "^1.1.7"
     }
