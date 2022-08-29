@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\Home;
+namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Portofolio extends Component
+class ButtonLink extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public string $href, public string $target = 'self', public string $variant = 'primary')
     {
         //
     }
@@ -23,6 +23,6 @@ class Portofolio extends Component
      */
     public function render()
     {
-        return view('components.home.portofolio');
+        return view('components.button-link');
     }
 }
