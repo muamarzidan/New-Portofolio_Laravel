@@ -46,10 +46,9 @@
         </div>
         <div class="flex flex-wrap -mx-4">
             @foreach ($items as $item)
-                <x-portofolio-item :title="$item['title']" :categories="$item['category']" :descriptions="['description']" :image="$item['image']">
+                <x-portofolio-item :title="$item['title']" :categories="$item['category']" :description="$item['description']" :image="$item['image']" :github="$item['github']">
                 </x-portofolio-item>
             @endforeach
         </div>
     </div>
-
 </section>

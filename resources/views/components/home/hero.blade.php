@@ -29,7 +29,7 @@
                 <div class="lg:text-right lg:ml-auto">
                     <div class="relative inline-block z-10 pt-11 lg:pt-0 px-8"> 
                         <img
-                            src="{{ url('/img/herogw1.png') }}"
+                            src="{{ url('/img/logo.png') }}"
                             alt="hero"
                             class="max-w-full lg:ml-auto px-8"
                             />
