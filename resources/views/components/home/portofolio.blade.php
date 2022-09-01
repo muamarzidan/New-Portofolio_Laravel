@@ -1,12 +1,13 @@
-<section 
-    id="portofolio" 
-    x-data="{ 
-                selectedTap: 'all',
-                activeClasses: 'bg-primary text-white', 
-                inactiveClasses: 'text-body-color hover:bg-primmary hover:text-white', 
-            }
-            " 
-    class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"> 
+<section
+  id="portofolio"
+  x-data="
+        {
+          selectedTab: 'all',
+          activeClasses: 'bg-primary text-white',
+          inactiveClasses: 'text-body-color hover:bg-primary hover:text-white',
+        }
+      "
+    class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
 
     <div class="container">
         <div class="flex flex-wrap -mx-4">
@@ -25,18 +26,20 @@
             <div class="w-full px-4">
                 <ul class="flex flex-wrap justify-center mb-12 space-x-1">
                     <li class="mb-1">
-                        <button @click="selectedTap = 'all' "
-                                :class="selectedTap == 'all' ? activeClasses : inactiveClasses "
-                                class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition "> 
+                        <button
+                                @click="selectedTab = 'all' "
+                                :class="selectedTab == 'all' ? activeClasses : inactiveClasses "
+                                class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition "
+                                > 
                             All Projects
                         </button>
                     </li>
-                    @foreach ($tabs as $tab)
+                    @foreach($tabs as $tab)
                         <li class="mb-1">
                             <button
-                                @click="selectedTap = '{{$tab}}'"
-                                :class="selectedTap === '{{$tab}}' ? activeClasses : inactiveClasses "
-                                class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-xl font-semibold text-center transition ">
+                                @click="selectedTab = '{{$tab}}' "
+                                :class="selectedTab === '{{$tab}}' ? activeClasses : inactiveClasses "
+                                class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition ">
                                 {{$tab}}
                             </button>
                         </li>
@@ -46,9 +49,13 @@
         </div>
         <div class="flex flex-wrap -mx-4">
             @foreach ($items as $item)
-                <x-portofolio-item :title="$item['title']" :categories="$item['category']" :description="$item['description']" :image="$item['image']" :github="$item['github']">
+                <x-portofolio-item :title="$item['title']"
+                                    :categories="$item['category']"
+                                    :description="$item['description']"
+                                    :image="$item['image']"
+                                    :github="$item['github']">
                 </x-portofolio-item>
-            @endforeach
+             @endforeach
         </div>
     </div>
 </section>

@@ -4,6 +4,8 @@ namespace App\View\Components\Home;
 
 use Illuminate\View\Component;
 use Illuminate\Support\Arr;
+use function url;
+use function view;
 
 class Portofolio extends Component
 {
@@ -21,23 +23,23 @@ class Portofolio extends Component
         $this->items = [
             [
                 'category' => ['Php', 'Bootstrap'],
-                'title' => 'Fullstack Web Store with PHP & Bootstrap',
+                'title' => 'Fullstack Web Store',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
                 'image' => url('/img/logo-2.png'),
                 'github' => 'https://github.com/muamarzidan'
             ],
             [
                 'category' => ['Laravel', 'Bootstrap', 'Javascript'],
-                'title' => 'Fullstack Portofolio with Laravel, Bootstrap',
+                'title' => 'Fullstack Portofolio',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
                 'image' => url('/img/logo.png'),
                 'github' => 'https://github.com/muamarzidan'
             ],
             [
                 'category' => ['Bootstrap', 'Javascript'],
-                'title' => 'Web Portofolio with Html, Css, Boostrap',
+                'title' => 'Web Portofolio',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                'image' => url('/img/logo-3.png'),
+                'image' => url('/img/logo-3.jpg'),
                 'github' => 'https://github.com/muamarzidan'
             ],
             [
@@ -62,7 +64,6 @@ class Portofolio extends Component
                 'github' => 'https://github.com/muamarzidan'
             ],
         ];
-
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
     }
 
