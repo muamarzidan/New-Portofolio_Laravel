@@ -1,7 +1,7 @@
 {{-- navbar mulai --}}
 
-<header x-data="{navbarOpen: false}" class="fixed left-0 top-0 z-50 bg-white w-full flex items-center shadow-md dark:bg-slate-900 h-24">
-    <div class="container">
+<header x-data="{navbarOpen: false}" class="fixed left-0 top-0 z-50 bg-white w-full flex items-center shadow-md dark:bg-slate-900 h-24 px-20">
+    <div class="container mx-auto">
         <div class="flex -mx-4 items-center justify-between relative">
             <div class="pr-4 w-60 max-w-full">
                 <a href="/" class="w-full flex items-center py-2">
@@ -17,7 +17,7 @@
                         <ul class="block lg:flex lg:items-center">
                             @foreach($navigationItems as $item)
                                 <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
-                             @endforeach
+                            @endforeach
                         </ul>
                     </nav>
                 </div>
