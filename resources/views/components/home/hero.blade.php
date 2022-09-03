@@ -18,7 +18,7 @@
                     <ul class="flex flex-wrap items-center my-10 mb-20">
                         <li>
                             <x-button-link href="#portofolio" variant="primary" class="rounded-lg">
-                                My Projects
+                                My Project
                             </x-button-link>
                         </li>
                     </ul>
