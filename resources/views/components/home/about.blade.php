@@ -45,8 +45,20 @@
         </div>
     </div>
 </section>
-<section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-[#F3F4F6]">
+<section class="pt-16 lg:pt-[60px] pb-10 lg:pb-20 bg-[#F3F4F6]">
     <div class="container">
+      <div class="flex flex-wrap -mx-4">
+         <div class="w-full px-4">
+             <div class="text-center mx-auto mb-[60px] max-w-[660px]">
+                 <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-sky-500 mb-4">
+                   My Programming Language Level
+                 </h2>
+                 {{-- <p class="text-base text-body-color text-red-700">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 </p> --}}
+             </div>
+         </div>
+     </div>
        <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
              <div class="bg-white rounded-lg overflow-hidden mb-10">
@@ -246,4 +258,4 @@
          </div>
        </div>
     </div>
- </section>
+</section>

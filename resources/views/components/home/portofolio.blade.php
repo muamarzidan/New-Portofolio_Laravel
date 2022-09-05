@@ -7,7 +7,7 @@
           inactiveClasses: 'text-body-color hover:bg-primary hover:text-white',
         }
       "
-    class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+    class="pt-20 lg:pt-[70px] pb-12 lg:pb-[70px]">
 
     <div class="container">
         <div class="flex flex-wrap -mx-4">

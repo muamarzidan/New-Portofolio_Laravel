@@ -1,5 +1,5 @@
 <div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-slate-800">
-    <div class="container">
+    <div class="container p-6">
         <div class="flex flex-wrap mx-4">
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
@@ -27,11 +27,11 @@
             <div class="hidden lg:block lg:w-1/12 px-4"></div>
             <div class="w-full lg:w-6/12 px-4">
                 <div class="lg:text-right lg:ml-auto">
-                    <div class="relative inline-block z-10 pt-11 lg:pt-0 px-8"> 
+                    <div class="relative inline-block z-10 pt-11 lg:pt-0 sm:px-4"> 
                         <img
-                            src="{{ url('/img/logo.png') }}"
+                            src="{{ url('/img/hero-img-new.png') }}"
                             alt="hero"
-                            class="max-w-full lg:ml-auto px-8"
+                            class="max-w-full lg:ml-auto px-8 object-contain drop-shadow-lg"
                             />
                             <span class="absolute -left-8 -bottom-8 z-[-1]">
                             {{-- <svg
