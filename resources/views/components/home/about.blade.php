@@ -4,15 +4,15 @@
             <div class="w-full lg:w-6/12 px-4">
                 <div class="flex items-center -mx-3 sm:-mx-4">
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
-                        <div class="py-3 sm:py-4" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="py-3 sm:py-4" data-aos="fade-up" data-aos-duration="1000">
                             <img src="{{ url('/img/about1.jpg') }}" alt="" class="rounded-2xl w-full"/>
                         </div>
-                        <div class="py-3 sm:py-4"  data-aos="fade-down" data-aos-duration="2000">
+                        <div class="py-3 sm:py-4"  data-aos="fade-down" data-aos-duration="1000">
                             <img src="{{ url('/img/about2.jpeg') }}" alt="" class="rounded-2xl w-full"/>
                         </div>
                     </div>
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
-                        <div class="my-4 relative z-10" data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="my-4 relative z-10" data-aos="zoom-in" data-aos-duration="1000">
                             <img src="{{ url('/img/about3.jpeg') }}" alt="" class="rounded-2xl w-full"/>
                             <x-about-dots></x-about-dots>
                         </div>
@@ -22,24 +22,24 @@
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="mt-10 lg:mt-0">
                     <span class="font-semibold text-lg text-primary mb-2 block">
-                        <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500">
+                        <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500" data-aos-duration="1000" data-aos="fade-left">
                             "More Food More Skills"
                         </blockquote>
                     </span>
-                    <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
+                    <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8" data-aos-duration="1100" data-aos="fade-left">
                         About Me
                     </h2>
-                    <p class="text-base dark:text-gray-400 mb-8">
+                    <p class="text-base dark:text-gray-400 mb-8" data-aos-duration="1200" data-aos="fade-left">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
                         Ab repellendus quis hic, voluptatum veritatis praesentium fuga nesciunt ullam cumque magnam cupiditate consequatur! 
                         Nemo animi numquam consequatur velit aut, aperiam eos. <br />
                     </p>
-                    <p class="text-base dark:text-gray-400 mb-8">
+                    <p class="text-base dark:text-gray-400 mb-8" data-aos-duration="1300" data-aos="fade-left">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
                         <span class="text-amber-500 font-bold ">PHP</span> and  <span class="text-amber-500 font-bold ">PHP</span>. <br />
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     </p>
-                    <x-button-link href="" variant="red" target="_blank">Visit the ...</x-button-link>
+                    <x-button-link href="" variant="red" target="_blank" data-aos-duration="1500" data-aos="fade-left">Visit the ...</x-button-link>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
       <div class="flex flex-wrap -mx-4">
          <div class="w-full px-4">
              <div class="text-center mx-auto mb-[60px] max-w-[660px]">
-                 <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-sky-500 mb-4">
+                 <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-sky-500 mb-4" data-aos-duration="1500" data-aos="fade-down">
                    My Programming Language Level
                  </h2>
                  {{-- <p class="text-base text-body-color text-red-700">
@@ -61,7 +61,7 @@
      </div>
        <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-             <div class="bg-white rounded-lg overflow-hidden mb-10">
+             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                 <img
                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
                    alt="image"
@@ -84,7 +84,7 @@
                          hover:text-primary
                          "
                          >
-                        Javascript
+                        HTML
                       </a>
                    </h3>
                    <p class="text-base text-body-color leading-relaxed mb-2">
@@ -110,7 +110,7 @@
              </div>
           </div>
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-             <div class="bg-white rounded-lg overflow-hidden mb-10">
+             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                 <img
                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
                    alt="image"
@@ -133,7 +133,7 @@
                          hover:text-primary
                          "
                          >
-                         Javascript
+                         CSS
                       </a>
                    </h3>
                    <p class="text-base text-body-color leading-relaxed mb-2">
@@ -159,7 +159,7 @@
              </div>
           </div>
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-             <div class="bg-white rounded-lg overflow-hidden mb-10">
+             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                 <img
                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
                    alt="image"
@@ -182,7 +182,7 @@
                          hover:text-primary
                          "
                          >
-                         Javascript
+                         JAVASCRIPT
                       </a>
                    </h3>
                    <p class="text-base text-body-color leading-relaxed mb-2">
@@ -208,7 +208,7 @@
              </div>
           </div>
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10">
+            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                <img
                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
                   alt="image"
@@ -231,7 +231,7 @@
                         hover:text-primary
                         "
                         >
-                       Javascript
+                       NODE JS
                      </a>
                   </h3>
                   <p class="text-base text-body-color leading-relaxed mb-2">

@@ -6,6 +6,7 @@
         <title>Laravel</title>
         <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <meta name="crsf-token" content="{{ csrf_token() }}">
     </head>
 
     <body class="antialiased text-gray-800 dark:text-gray-200">

@@ -1,3 +1,17 @@
-<div>
-    <!-- Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. - Marie Curie -->
-</div>
+<input
+    {{ 
+        $attributes->class([
+            'w-full
+            rounded
+            py-3
+            px-[14px]
+            text-body-color text-base
+            border border-[f0f0f0]
+            outline-none
+            focus-visible:shadow-none
+            focus:border-primary
+            dark:bg-slate-800
+            dark:text-gray-300'
+        ]) 
+    }}
+/>

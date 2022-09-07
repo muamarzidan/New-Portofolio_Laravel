@@ -40,8 +40,43 @@
                             email: '',
                             message: ''
                         },
+                        errors: {},
+                        successMessage: '',
+
+                        summitForm(event) {
+                            this.successMessage = '';
+                            this.errors = {};
+                                fetch(`/contact/submit`, {
+                                    method: POST,
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        'X-Request-With': 'XMLHttpRequest',
+                                        'X-CSRF-TOKEN': document.querySelector(`meta[name='csrf_token']`).getAttribute('content')
+                                    },
+                                    body: JSON.stringify(this.formData),
+                                })
+                                .then(response => {
+                                    if (response.status === 200) {
+                                        return response.json();
+                                    }
+                                    throw response;
+                                })
+                                .then(result => {
+                                    this.formData = {
+                                        name: '',
+                                        email: '',
+                                        message: ''
+                                    };
+                                    this.successMessage = 'Thank you for submit the message';
+                                })
+                                .catch(res => {
+                                    if (res.status === 422) {
+                                        this.errors = result.errors;
+                                    }
+                                })
+                        }
                     }
-                    ">
+                    " x-on:submit.prevent="submitForm">
                         @csrf
                         <div class="mb-6">
                             <x-forms.input placeholder="Your Name" name="name" x-model="formData.name"></x-forms.input>
@@ -50,10 +85,12 @@
                             <x-forms.input type="email" placeholder="Your Email" name="email" x-model="formData.email"></x-forms.input>
                         </div>
                         <div class="mb-6">
-                            <x-forms.input placeholder="Your Message" name="Message" rows="6" x-model="formData.message"></x-forms.input>
+                            <x-forms.textarea placeholder="Your Message" name="Message" rows="6" x-model="formData.message"></x-forms.textarea>
                         </div>
                         <div>
-                            <x-button class="w-full">Send Message</x-button>
+                            <x-button class="w-full">
+                                Send Message
+                            </x-button>
                         </div>
                     </form>
                     <div>
@@ -74,7 +111,7 @@
                             </svg>
                          </span>
                          <x-contact-dots-top></x-contact-dots-top>
-                         <x-contact-dots-buttom></x-contact-dots-buttom>
+                         <x-contact-dots-bottom ></x-contact-dots-bottom>
                     </div>
                 </div>
             </div>
