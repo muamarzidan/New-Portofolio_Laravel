@@ -11,9 +11,9 @@
 
     <div class="container">
         <div class="flex flex-wrap -mx-4">
-            <div class="w-full px-4">
+            <div class="w-full px-4 pt-4">
                 <div class="text-center mx-auto mb-[60px] max-w-[510px]">
-                    <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
+                    <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4  pt-2">
                         My Recent Projects
                     </h2>
                     <p class="text-base text-body-color">
@@ -49,7 +49,7 @@
         </div>
         <div class="flex flex-wrap -mx-4">
             @foreach ($items as $item)
-                <x-portofolio-item :title="$item['title']"
+                <x-portofolio-item  :title="$item['title']"
                                     :categories="$item['category']"
                                     :description="$item['description']"
                                     :image="$item['image']"

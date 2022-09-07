@@ -3,6 +3,5 @@
     <span class="relative w-[30px] h-[2px] my-[6px] block bg-body-color"></span>
     <span class="relative w-[30px] h-[2px] my-[6px] block bg-body-color"></span>
     <span class="relative w-[30px] h-[2px] my-[6px] block bg-body-color"></span>
-
     
 </button>

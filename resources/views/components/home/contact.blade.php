@@ -2,7 +2,7 @@
     <div class="container">
         <div class="flex flex-wrap lg:justify-between -mx-4">
             <div class="w-full lg:w-1/2 xl:w-6/12 px">
-                <div class="max-w-[570px] mb-12 lg:mb-0">
+                {{-- <div class="max-w-[570px] mb-12 lg:mb-0">
                     <h2 class="text-dark dark:text-gray-100 mb-6 uppercase font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                         CONTACT
                     </h2>
@@ -29,7 +29,9 @@
                             <p class="text-base text-body-color">info@yourdomain.com</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
+                <img src="{{ url('/img/Checklist-bg.png') }}" alt="" class="ml-5">
+                
             </div>
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="bg-white dark:bg-slate-900 relative rounded-lg p-8 sm:p-12 shadow-lg">

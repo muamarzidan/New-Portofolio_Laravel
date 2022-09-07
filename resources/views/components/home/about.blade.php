@@ -60,10 +60,10 @@
          </div>
      </div>
        <div class="flex flex-wrap -mx-4">
-          <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+          <div class="w-full md:w-1/2 xl:w-1/4 px-2">
+             <div class="bg-white rounded-lg overflow-hidden mb-5" data-aos-duration="1000" data-aos="fade-up">
                 <img
-                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                   src="{{ url('/img/html.png') }}"
                    alt="image"
                    class="w-full"
                    />
@@ -112,7 +112,7 @@
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
              <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                 <img
-                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                   src="{{ url('/img/css.png') }}"
                    alt="image"
                    class="w-full"
                    />
@@ -161,7 +161,7 @@
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
              <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                 <img
-                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                   src="{{ url('/img/javascript.png') }}"
                    alt="image"
                    class="w-full"
                    />
@@ -210,7 +210,7 @@
           <div class="w-full md:w-1/2 xl:w-1/4 px-4">
             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
                <img
-                  src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                  src="{{ url('/img/node-js.png') }}"
                   alt="image"
                   class="w-full"
                   />
@@ -259,3 +259,4 @@
        </div>
     </div>
 </section>
+
