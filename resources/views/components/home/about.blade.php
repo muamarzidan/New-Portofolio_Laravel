@@ -45,12 +45,13 @@
         </div>
     </div>
 </section>
-<section class="pt-16 lg:pt-[60px] pb-10 lg:pb-20 bg-[#F3F4F6]">
+
+<section class="pt-16 lg:pt-[60px] pb-10 lg:pb-20 bg-[#F3F4F6] ">
     <div class="container">
       <div class="flex flex-wrap -mx-4">
          <div class="w-full px-4">
              <div class="text-center mx-auto mb-[60px] max-w-[660px]">
-                 <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-sky-500 mb-4" data-aos-duration="1500" data-aos="fade-down">
+                 <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-sky-800 mb-4" data-aos-duration="1200" data-aos="fade-down">
                    My Programming Language Level
                  </h2>
                  {{-- <p class="text-base text-body-color text-red-700">
@@ -60,161 +61,14 @@
          </div>
      </div>
        <div class="flex flex-wrap -mx-4">
-          <div class="w-full md:w-1/2 xl:w-1/4 px-2">
-             <div class="bg-white rounded-lg overflow-hidden mb-5" data-aos-duration="1000" data-aos="fade-up">
-                <img
-                   src="{{ url('/img/html.png') }}"
-                   alt="image"
-                   class="w-full"
-                   />
-                <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                   <h3>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         font-semibold
-                         text-dark text-xl
-                         sm:text-[22px]
-                         md:text-xl
-                         lg:text-[22px]
-                         xl:text-xl
-                         2xl:text-[22px]
-                         mb-4
-                         block
-                         hover:text-primary
-                         "
-                         >
-                        HTML
-                      </a>
-                   </h3>
-                   <p class="text-base text-body-color leading-relaxed mb-2">
-                        Intermediate
-                   </p>
-                   {{-- <a
-                      href="javascript:void(0)"
-                      class="
-                      inline-block
-                      py-2
-                      px-7
-                      border border-[#E5E7EB]
-                      rounded-full
-                      text-base text-body-color
-                      font-medium
-                      hover:border-primary hover:bg-primary hover:text-white
-                      transition
-                      "
-                      >
-                   View Details
-                   </a> --}}
-                </div>
-             </div>
-          </div>
-          <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
-                <img
-                   src="{{ url('/img/css.png') }}"
-                   alt="image"
-                   class="w-full"
-                   />
-                <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                   <h3>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         font-semibold
-                         text-dark text-xl
-                         sm:text-[22px]
-                         md:text-xl
-                         lg:text-[22px]
-                         xl:text-xl
-                         2xl:text-[22px]
-                         mb-4
-                         block
-                         hover:text-primary
-                         "
-                         >
-                         CSS
-                      </a>
-                   </h3>
-                   <p class="text-base text-body-color leading-relaxed mb-2">
-                      Intermediate
-                   </p>
-                   {{-- <a
-                      href="javascript:void(0)"
-                      class="
-                      inline-block
-                      py-2
-                      px-7
-                      border border-[#E5E7EB]
-                      rounded-full
-                      text-base text-body-color
-                      font-medium
-                      hover:border-primary hover:bg-primary hover:text-white
-                      transition
-                      "
-                      >
-                   View Details
-                   </a> --}}
-                </div>
-             </div>
-          </div>
-          <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-             <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
-                <img
-                   src="{{ url('/img/javascript.png') }}"
-                   alt="image"
-                   class="w-full"
-                   />
-                <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                   <h3>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         font-semibold
-                         text-dark text-xl
-                         sm:text-[22px]
-                         md:text-xl
-                         lg:text-[22px]
-                         xl:text-xl
-                         2xl:text-[22px]
-                         mb-4
-                         block
-                         hover:text-primary
-                         "
-                         >
-                         JAVASCRIPT
-                      </a>
-                   </h3>
-                   <p class="text-base text-body-color leading-relaxed mb-2">
-                        Intermediate
-                   </p>
-                   {{-- <a
-                      href="javascript:void(0)"
-                      class="
-                      inline-block
-                      py-2
-                      px-7
-                      border border-[#E5E7EB]
-                      rounded-full
-                      text-base text-body-color
-                      font-medium
-                      hover:border-primary hover:bg-primary hover:text-white
-                      transition
-                      "
-                      >
-                   View Details
-                   </a> --}}
-                </div>
-             </div>
-          </div>
-          <div class="w-full md:w-1/2 xl:w-1/4 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-5" data-aos-duration="1000" data-aos="fade-up">
                <img
-                  src="{{ url('/img/node-js.png') }}"
+                  src="{{ url('/img/html.png') }}"
                   alt="image"
-                  class="w-full"
+                  class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
                   />
-               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+               <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
                   <h3>
                      <a
                         href="javascript:void(0)"
@@ -231,11 +85,11 @@
                         hover:text-primary
                         "
                         >
-                       NODE JS
+                     HTML
                      </a>
                   </h3>
                   <p class="text-base text-body-color leading-relaxed mb-2">
-                       Intermediate
+                     Intermediate
                   </p>
                   {{-- <a
                      href="javascript:void(0)"
@@ -256,7 +110,357 @@
                </div>
             </div>
          </div>
-       </div>
-    </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+               <img
+                  src="{{ url('/img/css.png') }}"
+                  alt="image"
+                  class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="
+                        font-semibold
+                        text-dark text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                        "
+                        >
+                        CSS
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-2">
+                     Intermediate
+                  </p>
+                  {{-- <a
+                     href="javascript:void(0)"
+                     class="
+                     inline-block
+                     py-2
+                     px-7
+                     border border-[#E5E7EB]
+                     rounded-full
+                     text-base text-body-color
+                     font-medium
+                     hover:border-primary hover:bg-primary hover:text-white
+                     transition
+                     "
+                     >
+                  View Details
+                  </a> --}}
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+               <img
+                  src="{{ url('/img/javascript-2.png') }}"
+                  alt="image"
+                  class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="
+                        font-semibold
+                        text-dark text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                        "
+                        >
+                        JAVASCRIPT
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-2">
+                     Intermediate
+                  </p>
+                  {{-- <a
+                     href="javascript:void(0)"
+                     class="
+                     inline-block
+                     py-2
+                     px-7
+                     border border-[#E5E7EB]
+                     rounded-full
+                     text-base text-body-color
+                     font-medium
+                     hover:border-primary hover:bg-primary hover:text-white
+                     transition
+                     "
+                     >
+                  View Details
+                  </a> --}}
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+         <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+            <img
+               src="{{ url('/img/node-js.png') }}"
+               alt="image"
+               class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+               />
+            <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+               <h3>
+                  <a
+                     href="javascript:void(0)"
+                     class="
+                     font-semibold
+                     text-dark text-xl
+                     sm:text-[22px]
+                     md:text-xl
+                     lg:text-[22px]
+                     xl:text-xl
+                     2xl:text-[22px]
+                     mb-4
+                     block
+                     hover:text-primary
+                     "
+                     >
+                     NODE JS
+                  </a>
+               </h3>
+               <p class="text-base text-body-color leading-relaxed mb-2">
+                     Intermediate
+               </p>
+               {{-- <a
+                  href="javascript:void(0)"
+                  class="
+                  inline-block
+                  py-2
+                  px-7
+                  border border-[#E5E7EB]
+                  rounded-full
+                  text-base text-body-color
+                  font-medium
+                  hover:border-primary hover:bg-primary hover:text-white
+                  transition
+                  "
+                  >
+               View Details
+               </a> --}}
+            </div>
+         </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+               <img
+                  src="{{ url('/img/php.png') }}"
+                  alt="image"
+                  class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="
+                        font-semibold
+                        text-dark text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                        "
+                        >
+                        PHP
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-2">
+                        Intermediate
+                  </p>
+                  {{-- <a
+                     href="javascript:void(0)"
+                     class="
+                     inline-block
+                     py-2
+                     px-7
+                     border border-[#E5E7EB]
+                     rounded-full
+                     text-base text-body-color
+                     font-medium
+                     hover:border-primary hover:bg-primary hover:text-white
+                     transition
+                     "
+                     >
+                  View Details
+                  </a> --}}
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+               <img
+                  src="{{ url('/img/laravel.jpeg') }}"
+                  alt="image"
+                  class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="
+                        font-semibold
+                        text-dark text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                        "
+                        >
+                        REACT JS
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-2">
+                        Beginner
+                  </p>
+                  {{-- <a
+                     href="javascript:void(0)"
+                     class="
+                     inline-block
+                     py-2
+                     px-7
+                     border border-[#E5E7EB]
+                     rounded-full
+                     text-base text-body-color
+                     font-medium
+                     hover:border-primary hover:bg-primary hover:text-white
+                     transition
+                     "
+                     >
+                  View Details
+                  </a> --}}
+               </div>
+            </div>
+         </div>
+         
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+               <img
+                  src="{{ url('/img/bootstrap-logo-5633.svg') }}"
+                  alt="image"
+                  class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="
+                        font-semibold
+                        text-dark text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                        "
+                        >
+                        LARAVEL
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-2">
+                        Intermediate
+                  </p>
+                  {{-- <a
+                     href="javascript:void(0)"
+                     class="
+                     inline-block
+                     py-2
+                     px-7
+                     border border-[#E5E7EB]
+                     rounded-full
+                     text-base text-body-color
+                     font-medium
+                     hover:border-primary hover:bg-primary hover:text-white
+                     transition
+                     "
+                     >
+                  View Details
+                  </a> --}}
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+         <div class="bg-white rounded-lg overflow-hidden mb-10" data-aos-duration="1000" data-aos="fade-up">
+            <img
+               src="{{ url('/img/OIP.jpeg') }}"
+               alt="image"
+               class="w-full overflow-hidden ease-in duration-300 hover:scale-105 hover:bg-[url('/img/levels.png')] "
+               />
+            <div class="p-8 sm:p-9 md:p-7 xl:p-4 text-center">
+               <h3>
+                  <a
+                     href="javascript:void(0)"
+                     class="
+                     font-semibold
+                     text-dark text-xl
+                     sm:text-[22px]
+                     md:text-xl
+                     lg:text-[22px]
+                     xl:text-xl
+                     2xl:text-[22px]
+                     mb-4
+                     block
+                     hover:text-primary
+                     "
+                     >
+                     LARAVEL
+                  </a>
+               </h3>
+               <p class="text-base text-body-color leading-relaxed mb-2">
+                     Intermediate
+               </p>
+               {{-- <a
+                  href="javascript:void(0)"
+                  class="
+                  inline-block
+                  py-2
+                  px-7
+                  border border-[#E5E7EB]
+                  rounded-full
+                  text-base text-body-color
+                  font-medium
+                  hover:border-primary hover:bg-primary hover:text-white
+                  transition
+                  "
+                  >
+               View Details
+               </a> --}}
+            </div>
+         </div>
+         </div>
+      </div>
+   </div>
 </section>
 

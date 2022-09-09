@@ -42,27 +42,27 @@ class Portofolio extends Component
                 'image' => url('/img/logo-3.jpg'),
                 'github' => 'https://github.com/muamarzidan'
             ],
-            [
-                'category' => ['Laravel', 'ReactJS', 'Ilustration'],
-                'title' => 'Fullstack Laravel',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                'image' => url('/img/ytb-logo.png'),
-                'github' => 'https://github.com/muamarzidan'
-            ],
-            [
-                'category' => ['Bootstrap', 'NodeJS', 'UI Design'],
-                'title' => 'Fullstack Bootstrap',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                'image' => url('/img/ytb-logo.png'),
-                'github' => 'https://github.com/muamarzidan'
-            ],
-            [
-                'category' => ['Javascript', 'Tailwind'],
-                'title' => 'Fullstack Javascript',
-                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                'image' => url('/img/ytb-logo.png'),
-                'github' => 'https://github.com/muamarzidan'
-            ],
+            // [
+            //     'category' => ['Laravel', 'ReactJS', 'Ilustration'],
+            //     'title' => 'Fullstack Laravel',
+            //     'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+            //     'image' => url('/img/ytb-logo.png'),
+            //     'github' => 'https://github.com/muamarzidan'
+            // ],
+            // [
+            //     'category' => ['Bootstrap', 'NodeJS', 'UI Design'],
+            //     'title' => 'Fullstack Bootstrap',
+            //     'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+            //     'image' => url('/img/ytb-logo.png'),
+            //     'github' => 'https://github.com/muamarzidan'
+            // ],
+            // [
+            //     'category' => ['Javascript', 'Tailwind'],
+            //     'title' => 'Fullstack Javascript',
+            //     'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+            //     'image' => url('/img/ytb-logo.png'),
+            //     'github' => 'https://github.com/muamarzidan'
+            // ],
         ];
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
     }

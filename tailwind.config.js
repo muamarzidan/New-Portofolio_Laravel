@@ -8,7 +8,11 @@ module.exports = {
     './resource/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/images/leves.png')",
+      })
+    },
   },
   plugins: [require("tailgrids/plugin")],
 }

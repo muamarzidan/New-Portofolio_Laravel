@@ -1,5 +1,5 @@
 <section
-  id="portofolio"
+  id="projects"
   x-data="
         {
           selectedTab: 'all',
@@ -13,7 +13,7 @@
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4 pt-4">
                 <div class="text-center mx-auto mb-[60px] max-w-[510px]">
-                    <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4  pt-2">
+                    <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-2 pt-2">
                         My Recent Projects
                     </h2>
                     <p class="text-base text-body-color">

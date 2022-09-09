@@ -16,8 +16,8 @@ class Navbar extends Component
     {
         $this->navigationItems = [
             ['label' => 'About', 'href' => '#about'],
-            ['label' => 'Projects', 'href' => '#portofolio'],
-            ['label' => 'Tutorials', 'href' => '#tutorials'],
+            ['label' => 'Projects', 'href' => '#projects'],
+            ['label' => 'Achievement', 'href' => '#achievement'],
             ['label' => 'Contact', 'href' => '#contact'],
         ];
     }
